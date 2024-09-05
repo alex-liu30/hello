@@ -1,1 +1,8 @@
-hh
+var a: Double = 2
+var b: Double = 5
+var c: Double = 3
+var root1: Double
+var root2: Double
+root1 = (-b + (b*b - 4*a*c).squareRoot())/(2*a)
+root2 = (-b - (b*b - 4*a*c).squareRoot())/(2*a)
+print("Your two x-values which are your two x-intercepts are \(root1) and \(root2).")
